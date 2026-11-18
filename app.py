@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-df = pd.read_excel("H:\prova python\PROVA B\prova_python(35)\saeb_aprendizado_territorios-7-2023-EM.xlsx",
+df = pd.read_excel("saeb_aprendizado_territorios-7-2023-EM.xlsx",
 sheet_name="estados", engine="openpyxl")
 
 df_filtrado = df[
